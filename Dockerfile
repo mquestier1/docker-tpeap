@@ -17,7 +17,7 @@ RUN mkdir /tmp/eap
 WORKDIR /tmp/eap
 
 # Download app.
-RUN curl -sL http://static.tp-link.com/EAP_Controller_v2.4.8_linux_x64.tar.gz \
+RUN curl -sL https://static.tp-link.com/2018/201809/20180907/Omada_Controller_V3.0.2_Linux_x64_targz.tar.gz
          > eap.tar.gz
 RUN tar xf eap.tar.gz
 RUN rm eap.tar.gz
